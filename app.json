@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Top 100 Crypto Tracker",
+    "slug": "Top-100-Crypto-Tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./ethlogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./ethlogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.konjo.top100cryptotracker",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./ethlogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.konjo.top100cryptotracker"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8d0ba697-bdf5-4d48-bb19-4d8dfa9d745c"
+      }
+    }
+  }
+}
