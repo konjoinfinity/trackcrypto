@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Top 100 Crypto Tracker",
-    "slug": "Top-100-Crypto-Tracker",
+    "name": "The Top 100 Crypto Price Tracker",
+    "slug": "The-Top-100-Crypto-Price-Tracker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./ethlogo.png",
@@ -19,7 +19,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.konjo.top100cryptotracker",
+      "bundleIdentifier": "com.konjo.thetop100cryptopricetracker",
       "buildNumber": "1",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
@@ -31,11 +31,11 @@
         "foregroundImage": "./ethlogo.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.konjo.top100cryptotracker"
+      "package": "com.konjo.thetop100cryptopricetracker"
     },
     "extra": {
       "eas": {
-        "projectId": "8d0ba697-bdf5-4d48-bb19-4d8dfa9d745c"
+       
       }
     }
   }
