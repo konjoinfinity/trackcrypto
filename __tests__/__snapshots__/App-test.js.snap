@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "marginTop": 30,
+      "padding": 10,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 30,
+        "fontWeight": "300",
+        "marginTop": 25,
+        "textAlign": "center",
+      }
+    }
+  >
+    Cryptocurrencies
+  </Text>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+        "marginBottom": 10,
+        "marginTop": 25,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 10,
+          "fontWeight": "300",
+          "textAlign": "center",
+        }
+      }
+    >
+      Name
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 10,
+          "fontWeight": "300",
+          "textAlign": "center",
+        }
+      }
+    >
+      Symbol
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 10,
+          "fontWeight": "300",
+          "textAlign": "center",
+        }
+      }
+    >
+      Price ($USD)
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      applyWindowCorrection={[Function]}
+      canChangeSize={true}
+      contentContainerStyle={
+        {
+          "backgroundColor": undefined,
+          "minHeight": 1,
+          "minWidth": 1,
+        }
+      }
+      contentHeight={0}
+      contentWidth={0}
+      data={{}}
+      dataProvider={
+        DataProvider {
+          "_data": {},
+          "_firstIndexToProcess": 0,
+          "_hasStableIds": true,
+          "_requiresDataChangeHandling": false,
+          "_size": undefined,
+          "getStableId": [Function],
+          "rowHasChanged": [Function],
+        }
+      }
+      disableRecycling={false}
+      estimatedItemSize={200}
+      extendedState={{}}
+      externalScrollView={[Function]}
+      finalRenderAheadOffset={250}
+      forceNonDeterministicRendering={true}
+      horizontal={false}
+      initialOffset={0}
+      initialRenderIndex={0}
+      isHorizontal={false}
+      layoutProvider={
+        GridLayoutProviderWithProps {
+          "_acceptableRelayoutDelta": 1,
+          "_getHeightOrWidth": [Function],
+          "_getLayoutTypeForIndex": [Function],
+          "_getSpan": [Function],
+          "_maxSpan": 1,
+          "_setLayoutForType": [Function],
+          "_tempDim": {
+            "height": 0,
+            "width": 0,
+          },
+          "averageWindow": AverageWindow {
+            "currentAverage": 200,
+            "currentCount": 1,
+            "inputValues": [
+              200,
+            ],
+            "nextIndex": 1,
+          },
+          "defaultEstimatedItemSize": 100,
+          "layoutObject": {
+            "size": undefined,
+            "span": undefined,
+          },
+          "props": {
+            "data": {},
+            "estimatedItemSize": 200,
+            "numColumns": 1,
+            "renderItem": [Function],
+          },
+          "shouldRefreshWithAnchoring": true,
+        }
+      }
+      maxRenderAhead={750}
+      numColumns={1}
+      onEndReached={[Function]}
+      onEndReachedThreshold={0}
+      onEndReachedThresholdRelative={0}
+      onItemLayout={[Function]}
+      onLayout={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onSizeChanged={[Function]}
+      onVisibleIndicesChanged={[Function]}
+      removeClippedSubviews={false}
+      renderAheadOffset={0}
+      renderAheadStep={250}
+      renderContentContainer={[Function]}
+      renderItem={[Function]}
+      renderItemContainer={[Function]}
+      rowRenderer={[Function]}
+      scrollEventThrottle={16}
+      scrollThrottle={16}
+      scrollViewProps={
+        {
+          "contentContainerStyle": {
+            "backgroundColor": undefined,
+            "minHeight": 1,
+            "minWidth": 1,
+          },
+          "onLayout": [Function],
+          "onScrollBeginDrag": [Function],
+          "refreshControl": undefined,
+          "style": {
+            "minHeight": 1,
+            "minWidth": 1,
+          },
+        }
+      }
+      style={
+        {
+          "minHeight": 1,
+          "minWidth": 1,
+        }
+      }
+      suppressBoundedSizeException={true}
+      windowCorrectionConfig={
+        {
+          "applyToInitialOffset": true,
+          "applyToItemScroll": true,
+          "value": {
+            "endCorrection": 0,
+            "startCorrection": 0,
+            "windowShift": -0,
+          },
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            {
+              "flexDirection": "column",
+            }
+          }
+        >
+          <AutoLayoutView
+            enableInstrumentation={false}
+            horizontal={false}
+            onBlankAreaEvent={[Function]}
+            onLayout={[Function]}
+            renderAheadOffset={0}
+            scrollOffset={0}
+            style={
+              {
+                "height": 0,
+                "width": 0,
+              }
+            }
+            windowSize={0}
+          />
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
