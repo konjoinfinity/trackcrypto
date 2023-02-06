@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from 'react';
-import { StyleSheet, Text, View, ScrollView, Dimensions, Image } from 'react-native';
+import { Text, View, Image } from 'react-native';
 import { FlashList } from "@shopify/flash-list";
 
 const DATA = [{title: "Bitcoin", symbol: 'BTC', price: '$23,045.23'},{title: "Bitcoin", symbol: 'BTC', price: '$23,045.23'},{title: "Bitcoin", symbol: 'BTC', price: '$23,045.23'},{title: "Bitcoin", symbol: 'BTC', price: '$23,045.23'},{title: "Bitcoin", symbol: 'BTC', price: '$23,045.23'},{title: "Bitcoin", symbol: 'BTC', price: '$23,045.23'},{title: "Bitcoin", symbol: 'BTC', price: '$23,045.23'},{title: "Bitcoin", symbol: 'BTC', price: '$23,045.23'},{title: "Bitcoin", symbol: 'BTC', price: '$23,045.23'},{title: "Bitcoin", symbol: 'BTC', price: '$23,045.23'},{title: "Bitcoin", symbol: 'BTC', price: '$23,045.23'}];
@@ -20,6 +20,7 @@ export default function App() {
            setCoins(res.data)
           }).catch(error => {
             console.log(`${error.message}!`);
+            
           });
     }
 
